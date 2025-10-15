@@ -39,5 +39,6 @@ frogID_data %>%
         plot.caption = element_text(family = font, size = 5, margin = margin(10,0,3,0)),
         plot.margin = margin(15,10,0,10))
 
-ggsave("tt25_35_frog.png", unit = "px", height = 1200, width = 1680, bg = "white")
+ggsave("tt_25_35_frog.png", unit = "px", height = 1200, width = 1680, bg = "white")
+
 
