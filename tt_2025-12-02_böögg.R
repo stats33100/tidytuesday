@@ -43,7 +43,7 @@ p1 <- sechselaeuten |>
   labs(
     x = NULL, y = "Summer temperatures on Swiss plateau / °C",
     title = glue("**Duration** does not correlate with temperature<br>
-                 (*r* = {round(result_duration$r, 2)}, 
+                 (n = 67, *r* = {round(result_duration$r, 2)}, 
                  *p* = {round(result_duration$p,3)}).")) +
   theme_classic() +
   theme(
@@ -65,7 +65,7 @@ p2 <- sechselaeuten |>
   labs(
     x = NULL, y = NULL,
     title = glue("**Year** correlates with temperature<br>
-                 (*r* = {round(result_year$r, 2)}, 
+                 (n = 67, *r* = {round(result_year$r, 2)}, 
                  *p* < .001).")) +
   theme_classic() +
   theme(
